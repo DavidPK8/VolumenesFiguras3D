@@ -2,16 +2,10 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class MenuPrincipal {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+      figuras_3D cubo=new figuras_3D();
+      figuras_3D piramide=new figuras_3D();
+      figuras_3D cilindro=new figuras_3D();
+      figuras_3D esfera=new figuras_3D();
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
     }
 }
